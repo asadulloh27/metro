@@ -1,0 +1,93 @@
+@media(max-width:1288px) {
+    .sations__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:765px) {
+    .stations__img {
+        max-width: 500px;
+    }
+
+    .header-title {
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+    .header__link {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .header__logo {
+        width: 70px;
+        height: 50px;
+    }
+
+    .stations-title {
+        text-align: center;
+        font-family: 'Rubik';
+        color: #fff;
+        padding: 0;
+        font-size: 30px;
+        margin-bottom: 3px;
+    }
+
+    .footer__logo {
+        width: 90px;
+        height: 60px;
+    }
+
+    .header__img {
+        width: 150px;
+        height: 100px;
+
+    }
+}
+@media(max-width:500px){
+    .stations__text {
+        max-width: 400px;
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .stations__img {
+        max-width: 400px;
+    }
+    .header__logo {
+        width: 50px;
+        height: 30px;
+    }
+    .header__item {
+        transition: 0.4s;
+        padding: 10px;
+    }
+}
+@media(max-width:405px){
+    .header__img {
+        width: 100px;
+        height: 70px;
+    }
+    .header-title {
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .header__botton{
+        max-height: 500px;
+    }
+}
+@media(max-width:405px){
+    .stations__img {
+        max-width: 310px;
+    }
+    .header__item {
+        transition: 0.4s;
+        padding: 5px;
+    }
+    .header__nav{
+        justify-content: center;
+        column-gap: 20px;
+    }
+    
+}

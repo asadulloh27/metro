@@ -1,0 +1,152 @@
+@import'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgb(60, 59, 59);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 80px;
+    height: 60px;
+    background: none;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+
+}
+
+.header__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.header__item {
+    transition: 0.4s;
+    padding: 20px;
+}
+
+.header__item:hover {
+    background-color: black;
+}
+
+.header__botton {
+    background: url(../image/s.jpg) no-repeat center/cover;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: #ff0000c3;
+
+}
+
+.header__img {
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+
+.header__span {
+    color: rgba(0, 0, 0, 0.775)
+}
+
+.stations {
+    background: rgb(124, 123, 123);
+    padding-top: 15px;
+
+}
+
+.stations-title {
+    text-align: center;
+    font-family: 'Rubik';
+    color: #fff;
+    padding: 8px 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.sations__station{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.stations__img {
+    width: 750px;
+    float: left;
+}
+.stations__text{
+    width: 800px;
+    font-family: 'Montserrat';
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+color: #fc0000;
+text-align: center;
+
+}
+.sations__box{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.527);
+    margin-bottom: 15px;
+}
+.footer{
+    background: rgb(60, 59, 59);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo{
+    width: 120px;
+    height: 90px;
+}
+.footer__link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    row-gap: 20px
+    ;
+}
